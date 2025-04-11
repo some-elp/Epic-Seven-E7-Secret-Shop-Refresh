@@ -425,7 +425,7 @@ class SecretShopRefresh:
 
     def clickConfirmBuy(self):
         x = self.window.left + self.window.width * 0.55
-        y = self.window.top + self.window.height * 0.70
+        y = self.window.top + self.window.height * 0.72
         pyautogui.moveTo(x, y)
         pyautogui.click(clicks=2, interval=self.mouse_sleep)
         time.sleep(self.mouse_sleep)
@@ -447,7 +447,7 @@ class SecretShopRefresh:
 
     def clickConfirmRefresh(self):
         x = self.window.left + self.window.width * 0.58
-        y = self.window.top + self.window.height * 0.64
+        y = self.window.top + self.window.height * 0.65
         pyautogui.moveTo(x, y)
         pyautogui.click(clicks=2, interval=self.mouse_sleep)
         time.sleep(self.screenshot_sleep)   #Account for Loading
