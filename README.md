@@ -4,6 +4,7 @@
 ## Getting Started
 ### MOUSE vs ADB
 There are two different ways to run auto shop refresh, either through controlling host mouse or send in debug command to emulator
+
 **Because this is a fork specifically designed to fix the mouse functionality, I cannot guarantee that the adb functionality still works given the UI changes to the game**
 
 ### PC Client (New!)
